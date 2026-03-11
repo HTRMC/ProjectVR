@@ -13,9 +13,27 @@ public class SocketPuzzleManager : MonoBehaviour
     {
         if (winTextObject != null)
             winTextObject.SetActive(false);
+
+        if (sockets == null) return;
+        for (int i = 0; i < sockets.Length; i++)
+        {
+            sockets[i].plugConnected.AddListener(OnConnectionChanged);
+            sockets[i].plugDisconnected.AddListener(OnConnectionChanged);
+        }
     }
 
-    void Update()
+    void OnDestroy()
+    {
+        if (sockets == null) return;
+        for (int i = 0; i < sockets.Length; i++)
+        {
+            if (sockets[i] == null) continue;
+            sockets[i].plugConnected.RemoveListener(OnConnectionChanged);
+            sockets[i].plugDisconnected.RemoveListener(OnConnectionChanged);
+        }
+    }
+
+    void OnConnectionChanged(CablePlug plug)
     {
         if (hasWon) return;
 
