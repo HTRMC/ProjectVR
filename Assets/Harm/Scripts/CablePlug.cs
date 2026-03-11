@@ -82,4 +82,14 @@ public class CablePlug : MonoBehaviour
     }
 
     public bool IsSocketed => currentSocket != null;
+    public ServerSocket CurrentSocket => currentSocket;
+
+    public string ColorID
+    {
+        get
+        {
+            if (cable != null) return cable.ColorID;
+            return "";
+        }
+    }
 }

@@ -18,6 +18,9 @@ public class PhysicsCable : MonoBehaviour
     [SerializeField] float collisionRadius = 0.015f;
     [SerializeField] LayerMask collisionMask = -1;
 
+    [Header("Puzzle")]
+    [SerializeField] string colorID;
+
     [Header("Visuals")]
     [SerializeField] Material cableMaterial;
     [SerializeField] float cableWidth = 0.015f;
@@ -37,6 +40,10 @@ public class PhysicsCable : MonoBehaviour
     GameObject plugAOutline, plugBOutline;
     int highlightRefCount;
     bool spawned;
+
+    public string ColorID => colorID;
+    public void SetColorID(string id) { colorID = id; }
+    public void SetPlugColor(Color color) { plugColor = color; }
 
     void OnEnable()
     {
@@ -85,7 +92,10 @@ public class PhysicsCable : MonoBehaviour
         Physics.IgnoreCollision(plugACol, plugBCol);
 
         line = gameObject.AddComponent<LineRenderer>();
-        line.material = cableMaterial;
+        line.material = cableMaterial != null ? new Material(cableMaterial) : new Material(Shader.Find("Universal Render Pipeline/Unlit"));
+        line.material.color = plugColor;
+        line.startColor = plugColor;
+        line.endColor = plugColor;
         line.startWidth = cableWidth;
         line.endWidth = cableWidth;
         line.useWorldSpace = true;
@@ -352,7 +362,16 @@ public class PhysicsCable : MonoBehaviour
         if (line == null)
             line = gameObject.AddComponent<LineRenderer>();
 
-        line.material = cableMaterial;
+        line.enabled = true;
+
+        if (cableMaterial != null)
+        {
+            var mat = new Material(cableMaterial);
+            mat.SetColor("_BaseColor", plugColor);
+            line.sharedMaterial = mat;
+        }
+        line.startColor = plugColor;
+        line.endColor = plugColor;
         line.startWidth = cableWidth;
         line.endWidth = cableWidth;
         line.useWorldSpace = true;
