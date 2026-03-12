@@ -5,6 +5,7 @@ public class SocketPuzzleManager : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] ServerSocket[] sockets;
+    [SerializeField] ServerSocket[] socketsB;
     [SerializeField] GameObject winTextObject;
     [SerializeField] GameObject winConfetti;
 
@@ -15,22 +16,34 @@ public class SocketPuzzleManager : MonoBehaviour
         if (winTextObject != null)
             winTextObject.SetActive(false);
 
-        if (sockets == null) return;
-        for (int i = 0; i < sockets.Length; i++)
-        {
-            sockets[i].plugConnected.AddListener(OnConnectionChanged);
-            sockets[i].plugDisconnected.AddListener(OnConnectionChanged);
-        }
+        SubscribeSockets(sockets);
+        SubscribeSockets(socketsB);
     }
 
     void OnDestroy()
     {
-        if (sockets == null) return;
-        for (int i = 0; i < sockets.Length; i++)
+        UnsubscribeSockets(sockets);
+        UnsubscribeSockets(socketsB);
+    }
+
+    void SubscribeSockets(ServerSocket[] arr)
+    {
+        if (arr == null) return;
+        for (int i = 0; i < arr.Length; i++)
         {
-            if (sockets[i] == null) continue;
-            sockets[i].plugConnected.RemoveListener(OnConnectionChanged);
-            sockets[i].plugDisconnected.RemoveListener(OnConnectionChanged);
+            arr[i].plugConnected.AddListener(OnConnectionChanged);
+            arr[i].plugDisconnected.AddListener(OnConnectionChanged);
+        }
+    }
+
+    void UnsubscribeSockets(ServerSocket[] arr)
+    {
+        if (arr == null) return;
+        for (int i = 0; i < arr.Length; i++)
+        {
+            if (arr[i] == null) continue;
+            arr[i].plugConnected.RemoveListener(OnConnectionChanged);
+            arr[i].plugDisconnected.RemoveListener(OnConnectionChanged);
         }
     }
 
@@ -47,19 +60,18 @@ public class SocketPuzzleManager : MonoBehaviour
 
     bool CheckAllCorrect()
     {
-        if (sockets == null || sockets.Length == 0) return false;
+        return CheckSide(sockets) && CheckSide(socketsB);
+    }
 
-        for (int i = 0; i < sockets.Length; i++)
+    bool CheckSide(ServerSocket[] arr)
+    {
+        if (arr == null || arr.Length == 0) return false;
+        for (int i = 0; i < arr.Length; i++)
         {
-            var socket = sockets[i];
-            if (!socket.IsConnected) return false;
-
-            var plug = socket.ConnectedPlug;
-            if (plug == null) return false;
-
-            if (plug.ColorID != socket.ColorID) return false;
+            if (!arr[i].IsConnected) return false;
+            var plug = arr[i].ConnectedPlug;
+            if (plug == null || plug.ColorID != arr[i].ColorID) return false;
         }
-
         return true;
     }
 
