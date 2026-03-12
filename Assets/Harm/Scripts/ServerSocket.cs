@@ -1,10 +1,13 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactors;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
+using UnityEngine.XR.Interaction.Toolkit.Filtering;
 
 [ExecuteInEditMode]
 [RequireComponent(typeof(XRSocketInteractor))]
-public class ServerSocket : MonoBehaviour
+public class ServerSocket : MonoBehaviour, IXRHoverFilter, IXRSelectFilter
 {
     [Header("Visual")]
     [SerializeField] float cubeSize = 0.04f;
@@ -42,6 +45,10 @@ public class ServerSocket : MonoBehaviour
         socket = GetComponent<XRSocketInteractor>();
         socket.hoverSocketSnapping = true;
         socket.recycleDelayTime = 0.5f;
+
+        // Only allow CablePlug objects — ignore pins and cable bodies
+        socket.hoverFilters.Add(this);
+        socket.selectFilters.Add(this);
 
         var box = GetComponent<BoxCollider>();
         if (box != null)
@@ -129,4 +136,17 @@ public class ServerSocket : MonoBehaviour
 
     public void SetColorID(string id) { colorID = id; }
     public void SetSocketColor(Color color) { socketColor = color; }
+
+    // IXRHoverFilter / IXRSelectFilter — only accept CablePlug objects
+    public bool canProcess => true;
+
+    public bool Process(IXRHoverInteractor interactor, IXRHoverInteractable interactable)
+    {
+        return (interactable as Component)?.GetComponent<CablePlug>() != null;
+    }
+
+    public bool Process(IXRSelectInteractor interactor, IXRSelectInteractable interactable)
+    {
+        return (interactable as Component)?.GetComponent<CablePlug>() != null;
+    }
 }

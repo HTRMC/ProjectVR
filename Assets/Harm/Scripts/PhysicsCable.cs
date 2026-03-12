@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 [ExecuteInEditMode]
@@ -41,9 +42,35 @@ public class PhysicsCable : MonoBehaviour
     int highlightRefCount;
     bool spawned;
 
+    // Pinning
+    Dictionary<int, Vector3> pinPositions = new Dictionary<int, Vector3>();
+    HashSet<Collider> ignoredColliders = new HashSet<Collider>();
+
     public string ColorID => colorID;
+    public Color PlugColor => plugColor;
     public void SetColorID(string id) { colorID = id; }
     public void SetPlugColor(Color color) { plugColor = color; }
+
+    // Pin API
+    public void PinNode(int idx, Vector3 pos) { pinPositions[idx] = pos; }
+    public void UnpinNode(int idx) { pinPositions.Remove(idx); }
+    public bool IsNodePinned(int idx) { return pinPositions.ContainsKey(idx); }
+    public int NodeCount => spawned ? nodes.Length : 0;
+    public Vector3 GetNodePosition(int idx) => nodes[idx];
+    public void AddIgnoredCollider(Collider col) { ignoredColliders.Add(col); }
+
+    public int GetNearestNode(Vector3 worldPos)
+    {
+        if (!spawned) return -1;
+        int nearest = -1;
+        float minDist = float.MaxValue;
+        for (int i = 1; i < nodes.Length - 1; i++)
+        {
+            float d = (nodes[i] - worldPos).sqrMagnitude;
+            if (d < minDist) { minDist = d; nearest = i; }
+        }
+        return nearest;
+    }
 
     void OnEnable()
     {
@@ -122,6 +149,10 @@ public class PhysicsCable : MonoBehaviour
         plugBOutline = CreatePlugOutline(plugBRb.transform);
 
         spawned = true;
+
+        // Cable pin interaction (ray-based)
+        var pinInteraction = gameObject.AddComponent<CablePinInteraction>();
+        pinInteraction.Init(this);
     }
 
     GameObject CreatePlugOutline(Transform parent)
@@ -130,7 +161,7 @@ public class PhysicsCable : MonoBehaviour
         outline.name = "PlugOutline";
         outline.transform.SetParent(parent, false);
         outline.transform.localRotation = Quaternion.Euler(0f, 0f, 90f);
-        outline.transform.localScale = new Vector3(0.018f, 0.03f, 0.018f); // same size as plug
+        outline.transform.localScale = new Vector3(0.018f, 0.03f, 0.018f);
         Destroy(outline.GetComponent<Collider>());
 
         var meshOutlineShader = Shader.Find("Custom/MeshOutline");
@@ -217,6 +248,8 @@ public class PhysicsCable : MonoBehaviour
         float maxSpeed = segmentLength * 2f;
         for (int i = 1; i < n - 1; i++)
         {
+            if (pinPositions.ContainsKey(i)) continue;
+
             Vector3 vel = (nodes[i] - prevNodes[i]) * damping;
             if (vel.sqrMagnitude > maxSpeed * maxSpeed)
                 vel = vel.normalized * maxSpeed;
@@ -224,7 +257,7 @@ public class PhysicsCable : MonoBehaviour
             nodes[i] += vel + g;
         }
 
-        // Anti-tunneling: SphereCast from prev to current catches ground pass-through
+        // Anti-tunneling
         PreventTunneling();
 
         // Save endpoint positions before constraint solving
@@ -242,8 +275,21 @@ public class PhysicsCable : MonoBehaviour
 
                 float error = (dist - segmentLength) / dist;
                 Vector3 correction = delta * (error * 0.5f);
-                nodes[i] += correction;
-                nodes[i + 1] -= correction;
+
+                bool pinI = pinPositions.ContainsKey(i);
+                bool pinI1 = pinPositions.ContainsKey(i + 1);
+
+                if (pinI && pinI1)
+                    continue;
+                else if (pinI)
+                    nodes[i + 1] -= correction * 2f;
+                else if (pinI1)
+                    nodes[i] += correction * 2f;
+                else
+                {
+                    nodes[i] += correction;
+                    nodes[i + 1] -= correction;
+                }
             }
 
             if (iter % 5 == 0)
@@ -252,7 +298,18 @@ public class PhysicsCable : MonoBehaviour
 
         ResolveOverlaps();
 
-        // Rope tension on plugs: how much the solver wanted to move the endpoints
+        // Enforce pinned positions
+        foreach (var kvp in pinPositions)
+        {
+            int idx = kvp.Key;
+            if (idx > 0 && idx < n - 1)
+            {
+                nodes[idx] = kvp.Value;
+                prevNodes[idx] = kvp.Value;
+            }
+        }
+
+        // Rope tension on plugs
         Vector3 tensionA = nodes[0] - savedA;
         Vector3 tensionB = nodes[n - 1] - savedB;
 
@@ -266,12 +323,14 @@ public class PhysicsCable : MonoBehaviour
         nodes[n - 1] = plugBRb.position;
     }
 
-    // ── Collision ────────────────────────────────────────────────────────
+    // -- Collision -------------------------------------------------------
 
     void PreventTunneling()
     {
         for (int i = 1; i < nodes.Length - 1; i++)
         {
+            if (pinPositions.ContainsKey(i)) continue;
+
             Vector3 movement = nodes[i] - prevNodes[i];
             float moveDist = movement.magnitude;
             if (moveDist < 0.001f) continue;
@@ -282,6 +341,7 @@ public class PhysicsCable : MonoBehaviour
                 QueryTriggerInteraction.Ignore))
             {
                 if (hit.collider == plugACol || hit.collider == plugBCol) continue;
+                if (ignoredColliders.Contains(hit.collider)) continue;
 
                 nodes[i] = hit.point + hit.normal * collisionRadius;
                 ApplyFriction(i, hit.normal);
@@ -293,6 +353,8 @@ public class PhysicsCable : MonoBehaviour
     {
         for (int i = 1; i < nodes.Length - 1; i++)
         {
+            if (pinPositions.ContainsKey(i)) continue;
+
             int count = Physics.OverlapSphereNonAlloc(
                 nodes[i], collisionRadius, overlapBuffer,
                 collisionMask, QueryTriggerInteraction.Ignore);
@@ -301,8 +363,8 @@ public class PhysicsCable : MonoBehaviour
             {
                 Collider col = overlapBuffer[j];
                 if (col == plugACol || col == plugBCol) continue;
+                if (ignoredColliders.Contains(col)) continue;
 
-                // Non-convex MeshCollider doesn't support ClosestPoint
                 if (col is MeshCollider mc && !mc.convex)
                 {
                     ResolveNonConvexOverlap(i, col);
@@ -328,8 +390,6 @@ public class PhysicsCable : MonoBehaviour
 
     void ResolveNonConvexOverlap(int i, Collider col)
     {
-        // Node is inside a non-convex mesh — raycast from outside toward the node
-        // to find the surface point and push the node out
         Vector3 dir = nodes[i] - col.bounds.center;
         if (dir.sqrMagnitude < 0.0001f) dir = Vector3.up;
         dir.Normalize();
@@ -349,12 +409,12 @@ public class PhysicsCable : MonoBehaviour
         Vector3 vel = nodes[i] - prevNodes[i];
         float intoSurface = Vector3.Dot(vel, surfaceNormal);
         if (intoSurface < 0)
-            vel -= surfaceNormal * intoSurface; // remove inward component
-        vel *= 0.3f; // surface friction
+            vel -= surfaceNormal * intoSurface;
+        vel *= 0.3f;
         prevNodes[i] = nodes[i] - vel;
     }
 
-    // ── Editor Preview ──────────────────────────────────────────────────
+    // -- Editor Preview --------------------------------------------------
 
     void SetupPreviewLine()
     {
@@ -409,7 +469,7 @@ public class PhysicsCable : MonoBehaviour
     }
 #endif
 
-    // ── LineRenderer ────────────────────────────────────────────────────
+    // -- LineRenderer ----------------------------------------------------
 
     void LateUpdate()
     {
