@@ -6,6 +6,7 @@ public class SocketPuzzleManager : MonoBehaviour
     [Header("References")]
     [SerializeField] ServerSocket[] sockets;
     [SerializeField] GameObject winTextObject;
+    [SerializeField] GameObject winConfetti;
 
     bool hasWon;
 
@@ -67,5 +68,13 @@ public class SocketPuzzleManager : MonoBehaviour
         Debug.Log("[SocketPuzzleManager] YOU WIN!");
         if (winTextObject != null)
             winTextObject.SetActive(true);
+
+        if (winConfetti != null)
+        {
+            winConfetti.SetActive(true);
+            var ps = winConfetti.GetComponent<ParticleSystem>();
+            if (ps != null)
+                ps.Play();
+        }
     }
 }
