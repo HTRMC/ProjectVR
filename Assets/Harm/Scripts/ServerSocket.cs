@@ -54,7 +54,7 @@ public class ServerSocket : MonoBehaviour, IXRHoverFilter, IXRSelectFilter
         if (box != null)
         {
             box.isTrigger = true;
-            box.size = Vector3.one * detectionRadius;
+            box.size = Vector3.one * ScaleAdjusted(detectionRadius);
         }
 
         EnsureVisual();
@@ -78,13 +78,19 @@ public class ServerSocket : MonoBehaviour, IXRHoverFilter, IXRSelectFilter
         visual.SetActive(true);
     }
 
+    float ScaleAdjusted(float worldSize)
+    {
+        float parentScale = transform.lossyScale.x;
+        return parentScale > 0 ? worldSize / parentScale : worldSize;
+    }
+
     void CreateVisual()
     {
         visual = GameObject.CreatePrimitive(PrimitiveType.Cube);
         visual.name = "SocketVisual";
         visual.transform.SetParent(transform, false);
         visual.transform.localPosition = Vector3.zero;
-        visual.transform.localScale = Vector3.one * cubeSize;
+        visual.transform.localScale = Vector3.one * ScaleAdjusted(cubeSize);
 
         // Remove collider — the BoxCollider on this GameObject handles interaction
         if (Application.isPlaying)
@@ -99,7 +105,7 @@ public class ServerSocket : MonoBehaviour, IXRHoverFilter, IXRSelectFilter
 
     void UpdateVisual()
     {
-        visual.transform.localScale = Vector3.one * cubeSize;
+        visual.transform.localScale = Vector3.one * ScaleAdjusted(cubeSize);
         var renderer = visual.GetComponent<Renderer>();
         if (renderer != null && renderer.sharedMaterial != null)
             renderer.sharedMaterial.SetColor("_BaseColor", socketColor);
