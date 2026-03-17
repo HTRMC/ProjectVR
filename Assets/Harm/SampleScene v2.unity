@@ -190,7 +190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -769,7 +769,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -1044,7 +1044,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -1815,7 +1815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -2283,7 +2283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -2468,7 +2468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -2706,7 +2706,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: Orange
   detectionRadius: 0.3
   plugConnected:
@@ -2834,7 +2834,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -3109,7 +3109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -3347,7 +3347,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -3745,7 +3745,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -4469,7 +4469,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -4654,7 +4654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -4963,7 +4963,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -5238,7 +5238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -5608,7 +5608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -6012,7 +6012,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -6664,7 +6664,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -7248,7 +7248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -7613,7 +7613,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -7798,7 +7798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -8126,7 +8126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 0, g: 1, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: Green
   detectionRadius: 0.3
   plugConnected:
@@ -8254,7 +8254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -9828,7 +9828,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -10013,7 +10013,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -10288,7 +10288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -10473,7 +10473,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -10838,7 +10838,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -11435,7 +11435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -11890,7 +11890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -12165,7 +12165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -12440,7 +12440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -12625,7 +12625,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -12968,7 +12968,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -13207,7 +13207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -13482,7 +13482,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
+  socketColor: {r: 1, g: 0, b: 0, a: 1}
   colorID: Orange
   detectionRadius: 0.3
   plugConnected:
@@ -13667,7 +13667,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -13852,7 +13852,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -14307,7 +14307,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -14492,7 +14492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -14911,7 +14911,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -20314,7 +20314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -20533,7 +20533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -21000,7 +21000,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -22091,7 +22091,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -22276,7 +22276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -22551,7 +22551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -22901,7 +22901,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -23086,7 +23086,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -24010,7 +24010,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -24195,7 +24195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -25764,7 +25764,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -26039,7 +26039,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -26589,7 +26589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -27440,7 +27440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -28400,7 +28400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: Red
   detectionRadius: 0.3
   plugConnected:
@@ -28980,7 +28980,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -30082,7 +30082,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -30267,7 +30267,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -30542,7 +30542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -30727,7 +30727,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -31092,7 +31092,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -32111,7 +32111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -32397,7 +32397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -33229,7 +33229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -33414,7 +33414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -33907,7 +33907,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -35136,7 +35136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -35227,7 +35227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -35894,7 +35894,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -36611,7 +36611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -36918,7 +36918,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -37372,7 +37372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -37520,7 +37520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -38421,7 +38421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -39577,7 +39577,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -39762,7 +39762,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -40127,7 +40127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -40995,7 +40995,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -41270,7 +41270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -41688,7 +41688,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -41873,7 +41873,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -42328,7 +42328,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -42955,7 +42955,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -43491,7 +43491,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -43743,7 +43743,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: Yellow
   detectionRadius: 0.3
   plugConnected:
@@ -43891,7 +43891,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -44878,7 +44878,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -45006,7 +45006,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -46487,7 +46487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -47575,7 +47575,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -47813,7 +47813,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: Purple
   detectionRadius: 0.3
   plugConnected:
@@ -48315,7 +48315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -49223,7 +49223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -49588,7 +49588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -49773,7 +49773,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -50476,7 +50476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -51021,7 +51021,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -51296,7 +51296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -51751,7 +51751,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -52982,7 +52982,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -53110,7 +53110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -53888,7 +53888,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -54231,7 +54231,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -54554,7 +54554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -55161,7 +55161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -55475,7 +55475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -55660,7 +55660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -56454,7 +56454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -57240,7 +57240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -58056,7 +58056,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -59318,7 +59318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -59503,7 +59503,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -59688,7 +59688,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -60296,7 +60296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -60796,7 +60796,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -61071,7 +61071,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -61436,7 +61436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -61621,7 +61621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -62241,7 +62241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -62663,7 +62663,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -63082,7 +63082,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -63357,7 +63357,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -63542,7 +63542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -63817,7 +63817,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -64002,7 +64002,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -64352,7 +64352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -64751,7 +64751,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -65169,7 +65169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 0, g: 0, b: 1, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: Blue
   detectionRadius: 0.3
   plugConnected:
@@ -65563,7 +65563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -65748,7 +65748,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -66319,7 +66319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -66504,7 +66504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -66993,7 +66993,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -67268,7 +67268,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -67812,7 +67812,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -67997,7 +67997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -68410,7 +68410,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -68648,7 +68648,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -68919,7 +68919,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -69047,7 +69047,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -69756,7 +69756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -71033,7 +71033,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -71593,7 +71593,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -72026,7 +72026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -72286,7 +72286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -72471,7 +72471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -72656,7 +72656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -73021,7 +73021,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -73634,7 +73634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -73853,7 +73853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -74218,7 +74218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -75284,7 +75284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -75649,7 +75649,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -76089,7 +76089,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -76811,7 +76811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -77552,7 +77552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -77680,7 +77680,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -77865,7 +77865,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -78248,7 +78248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -78396,7 +78396,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -78979,7 +78979,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -79585,7 +79585,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -80040,7 +80040,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -80225,7 +80225,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -80663,7 +80663,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -82049,7 +82049,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -82324,7 +82324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -83448,7 +83448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -84345,7 +84345,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -84564,7 +84564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -85198,7 +85198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -85507,7 +85507,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -85692,7 +85692,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -86191,7 +86191,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -86376,7 +86376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -86561,7 +86561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -86979,7 +86979,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: Red
   detectionRadius: 0.3
   plugConnected:
@@ -87107,7 +87107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -87795,7 +87795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -88166,7 +88166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -88351,7 +88351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -88750,7 +88750,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -88935,7 +88935,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -89299,7 +89299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -90299,7 +90299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -90551,7 +90551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -91425,7 +91425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -92004,7 +92004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 0, g: 0, b: 1, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: Blue
   detectionRadius: 0.3
   plugConnected:
@@ -92189,7 +92189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -92644,7 +92644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -92829,7 +92829,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -93337,7 +93337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -94738,7 +94738,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -95553,7 +95553,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -95738,7 +95738,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -96275,7 +96275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -96527,7 +96527,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -96723,7 +96723,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -97122,7 +97122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -97487,7 +97487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -97852,7 +97852,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -98071,7 +98071,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -98450,7 +98450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -98635,7 +98635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -100287,7 +100287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -100652,7 +100652,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -101358,7 +101358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -101794,7 +101794,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -101979,7 +101979,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -102496,7 +102496,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -103175,7 +103175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -103360,7 +103360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -103972,7 +103972,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -104455,7 +104455,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -105345,7 +105345,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -105927,7 +105927,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -106112,7 +106112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -106828,7 +106828,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -107405,7 +107405,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -107624,7 +107624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -108079,7 +108079,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -108823,7 +108823,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.92, b: 0.02, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -109421,7 +109421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 0.4, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -109696,7 +109696,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -109971,7 +109971,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -110246,7 +110246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -110431,7 +110431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -111423,7 +111423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -111877,7 +111877,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -112166,7 +112166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -112562,7 +112562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -113527,7 +113527,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0, g: 1, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -114215,7 +114215,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.4, b: 0.7, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -114752,7 +114752,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 0.5, b: 0, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -115357,7 +115357,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -115867,7 +115867,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 1, g: 1, b: 1, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
@@ -116660,7 +116660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerSocket
   cubeSize: 0.04
-  socketColor: {r: 1, g: 0, b: 0, a: 1}
+  socketColor: {r: 0.6, g: 0.1, b: 0.9, a: 1}
   colorID: 
   detectionRadius: 0.3
   plugConnected:
