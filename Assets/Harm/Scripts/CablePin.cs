@@ -14,8 +14,10 @@ public class CablePin : MonoBehaviour
     Collider pinCollider;
 
     bool isHeld;
+    Vector3 lastSafePos;
 
     const float SNAP_RANGE = 3f;
+    const float PIN_RADIUS = 0.02f;
 
     public int NodeIndex => nodeIndex;
 
@@ -60,14 +62,54 @@ public class CablePin : MonoBehaviour
     void OnGrabbed(SelectEnterEventArgs args)
     {
         isHeld = true;
+        lastSafePos = transform.position;
     }
 
     void Update()
     {
         if (isHeld)
         {
-            // Keep cable node following the pin while being dragged
-            cable.PinNode(nodeIndex, transform.position);
+            Vector3 targetPos = transform.position;
+
+            // Prevent tunneling: spherecast from last safe position to current
+            Vector3 toTarget = targetPos - lastSafePos;
+            float dist = toTarget.magnitude;
+
+            if (dist > 0.001f)
+            {
+                if (Physics.SphereCast(lastSafePos, PIN_RADIUS, toTarget / dist,
+                    out RaycastHit hit, dist, Physics.DefaultRaycastLayers,
+                    QueryTriggerInteraction.Ignore))
+                {
+                    if (hit.collider != pinCollider)
+                    {
+                        // Clamp to surface, offset by radius + small margin
+                        targetPos = hit.point + hit.normal * (PIN_RADIUS + 0.005f);
+                        transform.position = targetPos;
+                    }
+                }
+            }
+
+            // Resolve any remaining overlap
+            var overlaps = Physics.OverlapSphere(targetPos, PIN_RADIUS,
+                Physics.DefaultRaycastLayers, QueryTriggerInteraction.Ignore);
+            foreach (var col in overlaps)
+            {
+                if (col == pinCollider) continue;
+                if (col.isTrigger) continue;
+
+                Vector3 closest = col.ClosestPoint(targetPos);
+                Vector3 diff = targetPos - closest;
+                float d = diff.magnitude;
+                if (d < PIN_RADIUS && d > 0.0001f)
+                {
+                    targetPos = closest + (diff / d) * (PIN_RADIUS + 0.005f);
+                    transform.position = targetPos;
+                }
+            }
+
+            lastSafePos = targetPos;
+            cable.PinNode(nodeIndex, targetPos);
         }
     }
 
