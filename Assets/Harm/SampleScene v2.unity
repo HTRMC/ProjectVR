@@ -958,9 +958,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -983,7 +983,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &20586373
 GameObject:
@@ -3681,9 +3681,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -3706,7 +3706,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &81263246
 GameObject:
@@ -9688,9 +9688,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -9713,7 +9713,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &168077173
 GameObject:
@@ -10785,9 +10785,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -10810,7 +10810,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &190404989
 GameObject:
@@ -12845,9 +12845,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -12870,7 +12870,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &216392810
 GameObject:
@@ -22786,9 +22786,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -22811,7 +22811,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!21 &312723532
 Material:
@@ -24404,9 +24404,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -24429,7 +24429,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &339833243
 GameObject:
@@ -27061,9 +27061,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -27086,7 +27086,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &371984603
 GameObject:
@@ -27163,9 +27163,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -27188,7 +27188,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &373258669
 GameObject:
@@ -30305,9 +30305,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -30330,7 +30330,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &414103225
 GameObject:
@@ -31937,9 +31937,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -31962,7 +31962,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &425827072
 GameObject:
@@ -32798,9 +32798,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -32823,7 +32823,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &437968230
 GameObject:
@@ -32900,9 +32900,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -32925,7 +32925,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &438137531
 GameObject:
@@ -38802,9 +38802,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -38827,7 +38827,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &540922159
 PrefabInstance:
@@ -41477,9 +41477,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -41502,7 +41502,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &562411667
 GameObject:
@@ -45071,9 +45071,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -45096,7 +45096,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &616991967
 BoxCollider:
@@ -46867,9 +46867,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -46892,7 +46892,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &647882170
 GameObject:
@@ -51154,9 +51154,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -51179,7 +51179,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &721071941
 MonoBehaviour:
@@ -51433,9 +51433,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -51458,7 +51458,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &726816406
 GameObject:
@@ -53823,9 +53823,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -53848,7 +53848,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!21 &782760651
 Material:
@@ -54161,9 +54161,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -54186,7 +54186,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &785121631
 GameObject:
@@ -56028,9 +56028,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -56053,7 +56053,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &811813827
 GameObject:
@@ -56860,9 +56860,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -56885,7 +56885,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &817075155
 GameObject:
@@ -59113,9 +59113,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -59138,7 +59138,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &841735221
 GameObject:
@@ -62807,9 +62807,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -62832,7 +62832,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &907217916
 GameObject:
@@ -65678,9 +65678,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -65703,7 +65703,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &942904787
 GameObject:
@@ -65731,7 +65731,7 @@ Transform:
   m_GameObject: {fileID: 942904787}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 15.335, y: 0.45, z: -1.866}
+  m_LocalPosition: {x: 14.8, y: 0.45, z: -2.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -66480,9 +66480,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -66505,7 +66505,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &959022081
 GameObject:
@@ -66582,9 +66582,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -66607,7 +66607,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!21 &960952853
 Material:
@@ -66898,9 +66898,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -66923,7 +66923,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!21 &967098052
 Material:
@@ -68618,9 +68618,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -68643,7 +68643,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &988677511
 GameObject:
@@ -70241,9 +70241,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -70266,7 +70266,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1007768763
 GameObject:
@@ -72381,9 +72381,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -72406,7 +72406,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1031633483
 MonoBehaviour:
@@ -73485,9 +73485,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -73510,7 +73510,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1052848725
 GameObject:
@@ -73862,9 +73862,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -73887,7 +73887,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1054397304
 GameObject:
@@ -78085,8 +78085,8 @@ Transform:
   m_GameObject: {fileID: 1138703690}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 15.335, y: 0.4, z: -1.866}
-  m_LocalScale: {x: 1.2, y: 0.05, z: 0.7}
+  m_LocalPosition: {x: 14.5, y: 0.4, z: -2}
+  m_LocalScale: {x: 2.4, y: 0.05, z: 1.4}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 410406557}
@@ -78900,9 +78900,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -78925,7 +78925,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1153135102
 GameObject:
@@ -80678,9 +80678,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -80703,7 +80703,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1172302913
 GameObject:
@@ -81658,9 +81658,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -81683,7 +81683,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!21 &1196896642
 Material:
@@ -85113,9 +85113,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -85138,7 +85138,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1261098103
 GameObject:
@@ -88099,9 +88099,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -88124,7 +88124,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1304685766
 GameObject:
@@ -88763,9 +88763,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -88788,7 +88788,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1310677773
 GameObject:
@@ -89230,9 +89230,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -89255,7 +89255,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1316956064
 GameObject:
@@ -89716,9 +89716,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -89741,7 +89741,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1322130048
 GameObject:
@@ -90677,9 +90677,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -90702,7 +90702,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1325913508
 GameObject:
@@ -90959,9 +90959,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -90984,7 +90984,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1329124356
 GameObject:
@@ -91061,9 +91061,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -91086,7 +91086,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1329594916
 GameObject:
@@ -92264,9 +92264,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -92289,7 +92289,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1343485340
 GameObject:
@@ -92512,9 +92512,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -92537,7 +92537,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1350430169
 GameObject:
@@ -93165,9 +93165,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -93190,7 +93190,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1357868957
 GameObject:
@@ -95791,9 +95791,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -95816,7 +95816,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1384492121
 GameObject:
@@ -96213,9 +96213,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -96238,7 +96238,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1396869072
 GameObject:
@@ -97132,9 +97132,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -97157,7 +97157,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!21 &1407192400
 Material:
@@ -98930,9 +98930,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -98955,7 +98955,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1452794555
 GameObject:
@@ -102657,9 +102657,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -102682,7 +102682,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1517941056
 GameObject:
@@ -103675,9 +103675,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -103700,7 +103700,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1532186620
 GameObject:
@@ -104322,9 +104322,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -104347,7 +104347,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1544662523
 GameObject:
@@ -104993,9 +104993,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -105018,7 +105018,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1548251155
 GameObject:
@@ -108141,9 +108141,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -108166,7 +108166,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1598269138
 GameObject:
@@ -108383,9 +108383,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -108408,7 +108408,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1602769331
 GameObject:
@@ -110073,9 +110073,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -110098,7 +110098,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1633297060
 GameObject:
@@ -110725,9 +110725,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -110750,7 +110750,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1640842904
 GameObject:
@@ -112008,9 +112008,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -112033,7 +112033,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1655966842
 GameObject:
@@ -112414,9 +112414,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -112439,7 +112439,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1661019596
 GameObject:
@@ -112892,9 +112892,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -112917,7 +112917,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1672527410
 GameObject:
@@ -113359,9 +113359,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -113384,7 +113384,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1680286800
 GameObject:
@@ -114096,9 +114096,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -114121,7 +114121,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1696752556
 GameObject:
@@ -114529,9 +114529,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -114554,7 +114554,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1702708215
 GameObject:
@@ -115512,9 +115512,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -115537,7 +115537,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1722940088
 GameObject:
@@ -115614,9 +115614,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -115639,7 +115639,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1724267424
 GameObject:
@@ -116115,9 +116115,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -116140,7 +116140,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1732127807
 GameObject:
@@ -117626,9 +117626,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -117651,7 +117651,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1752803324
 GameObject:
@@ -118399,9 +118399,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -118424,7 +118424,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!21 &1768963880
 Material:
@@ -121372,9 +121372,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -121397,7 +121397,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1820823172
 GameObject:
@@ -121806,9 +121806,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -121831,7 +121831,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1832512713
 GameObject:
@@ -124181,9 +124181,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -124206,7 +124206,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1863524267
 GameObject:
@@ -128643,9 +128643,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -128668,7 +128668,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1937172627
 GameObject:
@@ -128745,9 +128745,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -128770,7 +128770,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &1938622317
 BoxCollider:
@@ -129558,9 +129558,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -129583,7 +129583,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1949339170
 GameObject:
@@ -130154,9 +130154,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -130179,7 +130179,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1964861636
 GameObject:
@@ -130909,9 +130909,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -130934,7 +130934,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1978953751
 GameObject:
@@ -132420,9 +132420,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -132445,7 +132445,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2001145672
 GameObject:
@@ -133257,9 +133257,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -133282,7 +133282,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2012831595
 GameObject:
@@ -134782,9 +134782,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -134807,7 +134807,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2034391124
 GameObject:
@@ -134884,9 +134884,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -134909,7 +134909,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2035042913
 GameObject:
@@ -136516,9 +136516,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -136541,7 +136541,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2064093256
 GameObject:
@@ -136693,9 +136693,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -136718,7 +136718,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2064639989
 GameObject:
@@ -136921,9 +136921,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -136946,7 +136946,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2069157374
 GameObject:
@@ -137203,9 +137203,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -137228,7 +137228,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2074802798
 GameObject:
@@ -139023,9 +139023,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -139048,7 +139048,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!21 &2102791022
 Material:
@@ -141328,9 +141328,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -141353,7 +141353,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2145294610
 GameObject:
@@ -141924,9 +141924,9 @@ MonoBehaviour:
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 0.5
+  m_RecycleDelayTime: 0.3
   m_HoverSocketSnapping: 0
-  m_SocketSnappingRadius: 0.5
+  m_SocketSnappingRadius: 0.8
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
@@ -141949,7 +141949,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
+  m_Size: {x: 0.5, y: 0.15, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &809155337852496227
 PrefabInstance:
@@ -141959,6 +141959,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 817075156}
     m_Modifications:
+    - target: {fileID: 1564569887437416194, guid: ecbf6d1d3a7091b4bbdbc934b3c89fb9, type: 3}
+      propertyPath: lengthInSec
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 7666611877484744202, guid: ecbf6d1d3a7091b4bbdbc934b3c89fb9, type: 3}
       propertyPath: m_Name
       value: Blaster
@@ -141969,15 +141973,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9210690801452922557, guid: ecbf6d1d3a7091b4bbdbc934b3c89fb9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.209
+      value: 14.2
       objectReference: {fileID: 0}
     - target: {fileID: 9210690801452922557, guid: ecbf6d1d3a7091b4bbdbc934b3c89fb9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.53
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 9210690801452922557, guid: ecbf6d1d3a7091b4bbdbc934b3c89fb9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.384
+      value: -1.6
       objectReference: {fileID: 0}
     - target: {fileID: 9210690801452922557, guid: ecbf6d1d3a7091b4bbdbc934b3c89fb9, type: 3}
       propertyPath: m_LocalRotation.w

@@ -4,37 +4,39 @@ using UnityEngine.XR.Interaction.Toolkit.Interactables;
 using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
 /// <summary>
-/// Makes servers grabbable from rack sockets. Handles:
-/// - Kinematic while socketed, dynamic with gravity when free
-/// - Differentiates player grab vs socket grab
-/// - Shows outline indicator when near a socket for snapping
+/// Makes servers grabbable from rack sockets. Features:
+/// - White outline indicator when near an empty slot
+/// - Smooth slide-in animation when snapping back
+/// - Falls with gravity when released outside a slot
 /// </summary>
 public class ServerGrabbable : MonoBehaviour
 {
-    [SerializeField] float snapIndicatorRange = 0.5f;
-    [SerializeField] Color snapIndicatorColor = new Color(0.3f, 1f, 0.5f, 0.4f);
+    [SerializeField] float snapRange = 0.8f;
+    [SerializeField] float slideInDuration = 0.4f;
 
     Rigidbody rb;
     XRGrabInteractable grab;
-    Transform originalParent;
-    Vector3 originalLocalPos;
-    Quaternion originalLocalRot;
     bool isHeldByPlayer;
     bool isSocketed = true;
-    GameObject snapIndicator;
-    Renderer[] renderers;
+    bool isSlidingIn;
+
+    // Snap indicator
+    GameObject indicator;
+    static Material indicatorMat;
+
+    // Slide animation
+    Vector3 slideStart;
+    Vector3 slideEnd;
+    Quaternion slideStartRot;
+    Quaternion slideEndRot;
+    float slideTimer;
+    Transform slideTarget;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         grab = GetComponent<XRGrabInteractable>();
-        originalParent = transform.parent;
-        originalLocalPos = transform.localPosition;
-        originalLocalRot = transform.localRotation;
 
-        renderers = GetComponentsInChildren<Renderer>();
-
-        // Start kinematic in rack
         if (rb != null)
         {
             rb.isKinematic = true;
@@ -47,66 +49,61 @@ public class ServerGrabbable : MonoBehaviour
             grab.selectExited.AddListener(OnSelectExit);
         }
 
-        CreateSnapIndicator();
+        CreateIndicator();
     }
 
-    void CreateSnapIndicator()
+    void CreateIndicator()
     {
-        // Ghost outline cube that shows where the server will snap to
-        snapIndicator = GameObject.CreatePrimitive(PrimitiveType.Cube);
-        snapIndicator.name = "SnapIndicator";
-        Destroy(snapIndicator.GetComponent<Collider>());
+        // Shared material for all indicators
+        if (indicatorMat == null)
+        {
+            var shader = Shader.Find("Universal Render Pipeline/Unlit");
+            indicatorMat = new Material(shader);
+            indicatorMat.SetColor("_BaseColor", new Color(1f, 1f, 1f, 0.25f));
+            indicatorMat.SetFloat("_Surface", 1);
+            indicatorMat.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
+            indicatorMat.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+            indicatorMat.SetInt("_ZWrite", 0);
+            indicatorMat.EnableKeyword("_SURFACE_TYPE_TRANSPARENT");
+            indicatorMat.renderQueue = 3000;
+        }
 
-        var mat = new Material(Shader.Find("Universal Render Pipeline/Unlit"));
-        mat.SetColor("_BaseColor", snapIndicatorColor);
-        // Make transparent
-        mat.SetFloat("_Surface", 1); // Transparent
-        mat.SetFloat("_Blend", 0);
-        mat.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
-        mat.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
-        mat.SetInt("_ZWrite", 0);
-        mat.renderQueue = 3000;
-        snapIndicator.GetComponent<Renderer>().material = mat;
+        indicator = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        indicator.name = "SlotIndicator";
+        Destroy(indicator.GetComponent<Collider>());
+        indicator.GetComponent<Renderer>().material = indicatorMat;
 
-        // Match server mesh size
+        // Size to match server mesh
         var mf = GetComponent<MeshFilter>();
         if (mf != null && mf.sharedMesh != null)
         {
-            snapIndicator.transform.localScale = Vector3.Scale(
+            indicator.transform.localScale = Vector3.Scale(
                 mf.sharedMesh.bounds.size,
                 transform.lossyScale
-            );
+            ) * 1.05f; // slightly bigger than server
         }
 
-        snapIndicator.SetActive(false);
+        indicator.SetActive(false);
     }
 
     void OnSelectEnter(SelectEnterEventArgs args)
     {
-        // Check if this is a socket or a player interactor
         if (args.interactorObject is XRSocketInteractor)
         {
-            // Socketed — stay kinematic, reparent
+            // Socket claimed us — animate slide in
             isSocketed = true;
             isHeldByPlayer = false;
+            HideIndicator();
 
-            if (rb != null)
-            {
-                rb.isKinematic = true;
-                rb.useGravity = false;
-                rb.linearVelocity = Vector3.zero;
-                rb.angularVelocity = Vector3.zero;
-            }
-
-            HideSnapIndicator();
+            var socketTransform = ((MonoBehaviour)args.interactorObject).transform;
+            StartSlideIn(socketTransform);
         }
         else
         {
             // Player grabbed
             isHeldByPlayer = true;
             isSocketed = false;
-
-            // Unparent so it moves freely
+            isSlidingIn = false;
             transform.SetParent(null, true);
         }
     }
@@ -115,64 +112,98 @@ public class ServerGrabbable : MonoBehaviour
     {
         if (args.interactorObject is XRSocketInteractor)
         {
-            // Unsocketed (player pulling it out)
             isSocketed = false;
         }
         else
         {
-            // Player released
             isHeldByPlayer = false;
-
-            // Wait a frame for socket to potentially claim it
             Invoke(nameof(EnablePhysicsIfFree), 0.15f);
         }
     }
 
     void EnablePhysicsIfFree()
     {
-        if (isSocketed || isHeldByPlayer) return;
+        if (isSocketed || isHeldByPlayer || isSlidingIn) return;
 
-        // Not socketed, not held — enable gravity
         if (rb != null)
         {
             rb.isKinematic = false;
             rb.useGravity = true;
         }
 
-        HideSnapIndicator();
+        HideIndicator();
+    }
+
+    void StartSlideIn(Transform target)
+    {
+        slideTarget = target;
+        slideStart = transform.position;
+        slideStartRot = transform.rotation;
+        slideEnd = target.position;
+        slideEndRot = target.rotation;
+        slideTimer = 0f;
+        isSlidingIn = true;
+
+        if (rb != null)
+        {
+            rb.isKinematic = true;
+            rb.useGravity = false;
+            rb.linearVelocity = Vector3.zero;
+            rb.angularVelocity = Vector3.zero;
+        }
     }
 
     void Update()
     {
-        if (!isHeldByPlayer) return;
-
-        // Look for nearby sockets to show snap indicator
-        var nearestSocket = FindNearestEmptySocket();
-        if (nearestSocket != null)
+        // Slide-in animation
+        if (isSlidingIn)
         {
-            snapIndicator.SetActive(true);
-            snapIndicator.transform.position = nearestSocket.transform.position;
-            snapIndicator.transform.rotation = nearestSocket.transform.rotation;
+            slideTimer += Time.deltaTime;
+            float t = Mathf.Clamp01(slideTimer / slideInDuration);
+            // Smooth ease-out curve
+            float eased = 1f - (1f - t) * (1f - t);
+
+            transform.position = Vector3.Lerp(slideStart, slideEnd, eased);
+            transform.rotation = Quaternion.Slerp(slideStartRot, slideEndRot, eased);
+
+            if (t >= 1f)
+            {
+                isSlidingIn = false;
+                transform.position = slideEnd;
+                transform.rotation = slideEndRot;
+            }
+            return;
+        }
+
+        // Show/hide snap indicator while holding
+        if (!isHeldByPlayer)
+        {
+            HideIndicator();
+            return;
+        }
+
+        var nearest = FindNearestEmptySlot();
+        if (nearest != null)
+        {
+            indicator.SetActive(true);
+            indicator.transform.position = nearest.transform.position;
+            indicator.transform.rotation = nearest.transform.rotation;
         }
         else
         {
-            HideSnapIndicator();
+            HideIndicator();
         }
     }
 
-    XRSocketInteractor FindNearestEmptySocket()
+    XRSocketInteractor FindNearestEmptySlot()
     {
         XRSocketInteractor nearest = null;
-        float nearestDist = snapIndicatorRange;
+        float nearestDist = snapRange;
 
-        // Find all server slot sockets
         var sockets = FindObjectsByType<XRSocketInteractor>(FindObjectsSortMode.None);
         foreach (var socket in sockets)
         {
-            // Only consider ServerSlot sockets, not cable sockets
             if (!socket.gameObject.name.StartsWith("ServerSlot")) continue;
-
-            // Skip occupied sockets
             if (socket.hasSelection) continue;
 
             float dist = Vector3.Distance(transform.position, socket.transform.position);
@@ -186,10 +217,10 @@ public class ServerGrabbable : MonoBehaviour
         return nearest;
     }
 
-    void HideSnapIndicator()
+    void HideIndicator()
     {
-        if (snapIndicator != null)
-            snapIndicator.SetActive(false);
+        if (indicator != null)
+            indicator.SetActive(false);
     }
 
     void OnDestroy()
@@ -200,7 +231,7 @@ public class ServerGrabbable : MonoBehaviour
             grab.selectExited.RemoveListener(OnSelectExit);
         }
 
-        if (snapIndicator != null)
-            Destroy(snapIndicator);
+        if (indicator != null)
+            Destroy(indicator);
     }
 }
