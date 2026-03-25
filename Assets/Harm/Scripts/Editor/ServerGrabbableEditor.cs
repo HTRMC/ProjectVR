@@ -39,9 +39,10 @@ public class ServerGrabbableEditor : Editor
         Transform slot = server.GetNearestServerSlot();
         if (slot == null) return;
 
-        // ── Snap range sphere ──
+        // ── Snap range sphere (centered on slide start position) ──
+        Vector3 slideStartForRange = slot.TransformPoint(slideStartOffset.vector3Value);
         Handles.color = new Color(1f, 1f, 0f, 0.08f);
-        Handles.DrawWireDisc(server.transform.position, Vector3.up, snapRange.floatValue);
+        Handles.DrawWireDisc(slideStartForRange, Vector3.up, snapRange.floatValue);
 
         // ── Wireframe preview position (draggable) ──
         Vector3 wireWorld = slot.TransformPoint(wireframeOffset.vector3Value);

@@ -4756,7 +4756,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -6924,7 +6924,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -12456,7 +12456,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -22321,7 +22321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -22800,7 +22800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -23342,7 +23342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -24086,7 +24086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -25932,7 +25932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -26226,7 +26226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -27095,7 +27095,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -27668,7 +27668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -27879,8 +27879,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: SERVER MAINTENANCE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 49ebd76705e51084797291f6ed07f524, type: 2}
+  m_sharedMaterial: {fileID: 7127953969925258412, guid: 49ebd76705e51084797291f6ed07f524, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -27907,9 +27907,9 @@ MonoBehaviour:
   m_fontSize: 28
   m_fontSizeBase: 28
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 4
+  m_fontSizeMax: 28
   m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -30452,7 +30452,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -31218,7 +31218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -33820,7 +33820,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -36052,7 +36052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -36470,7 +36470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -37537,7 +37537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -41354,7 +41354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -42319,7 +42319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -43360,7 +43360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -44504,7 +44504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -46976,7 +46976,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -50012,7 +50012,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -50486,7 +50486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -51853,7 +51853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -54077,7 +54077,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -56211,7 +56211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -56882,7 +56882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -57266,7 +57266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -57784,7 +57784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -59316,7 +59316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -61384,7 +61384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -63940,7 +63940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -64453,7 +64453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -64961,7 +64961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -66031,7 +66031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -66325,7 +66325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -66785,7 +66785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -69680,7 +69680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -70575,7 +70575,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -71576,7 +71576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -72231,7 +72231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -72681,7 +72681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -73438,7 +73438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -74282,7 +74282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -74678,7 +74678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -75486,7 +75486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -80805,7 +80805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -81410,8 +81410,8 @@ MonoBehaviour:
     Purple</color>  \u2192  Server 5\n[ ] <color=orange>\u25CF Orange</color> \u2192 
     Server 6\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 49ebd76705e51084797291f6ed07f524, type: 2}
+  m_sharedMaterial: {fileID: 7127953969925258412, guid: 49ebd76705e51084797291f6ed07f524, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -81435,12 +81435,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 15.6
   m_fontSizeBase: 18
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 4
+  m_fontSizeMax: 18
   m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
@@ -83066,7 +83066,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -83261,7 +83261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -87320,7 +87320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -91207,7 +91207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -92695,7 +92695,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -95881,15 +95881,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2243020122246761220, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 61.4
+      value: 56.11
       objectReference: {fileID: 0}
     - target: {fileID: 2243020122246761220, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 44.7
+      value: 42.055
       objectReference: {fileID: 0}
     - target: {fileID: 2243020122246761220, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -23
+      objectReference: {fileID: 0}
+    - target: {fileID: 2243020122246761222, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontSize
+      value: 13.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2243020122246761222, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 49ebd76705e51084797291f6ed07f524, type: 2}
+    - target: {fileID: 2243020122246761222, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2243020122246761222, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontSizeMin
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2243020122246761222, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 7127953969925258412, guid: 49ebd76705e51084797291f6ed07f524, type: 2}
+    - target: {fileID: 2243020122246761222, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2243020122508800753, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontSize
+      value: 13.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2243020122508800753, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 49ebd76705e51084797291f6ed07f524, type: 2}
+    - target: {fileID: 2243020122508800753, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2243020122508800753, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontSizeMin
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2243020122508800753, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 7127953969925258412, guid: 49ebd76705e51084797291f6ed07f524, type: 2}
+    - target: {fileID: 2243020122508800753, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2243020122508800755, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_AnchorMax.y
@@ -95901,7 +95949,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2243020122508800755, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 35.73
+      value: 34.09
       objectReference: {fileID: 0}
     - target: {fileID: 2243020122508800755, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -95929,7 +95977,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2243020122894124685, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 39.07
+      value: 39.78
       objectReference: {fileID: 0}
     - target: {fileID: 2243020122894124685, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -95938,6 +95986,30 @@ PrefabInstance:
     - target: {fileID: 2243020122894124685, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -23
+      objectReference: {fileID: 0}
+    - target: {fileID: 2243020122894124687, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontSize
+      value: 13.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2243020122894124687, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 49ebd76705e51084797291f6ed07f524, type: 2}
+    - target: {fileID: 2243020122894124687, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2243020122894124687, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontSizeMin
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2243020122894124687, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 7127953969925258412, guid: 49ebd76705e51084797291f6ed07f524, type: 2}
+    - target: {fileID: 2243020122894124687, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2243020123108092049, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_SizeDelta.x
@@ -95971,6 +96043,30 @@ PrefabInstance:
       propertyPath: m_ManipulationTranslateSpeed
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 4750419573833148748, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontSize
+      value: 13.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750419573833148748, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 49ebd76705e51084797291f6ed07f524, type: 2}
+    - target: {fileID: 4750419573833148748, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750419573833148748, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontSizeMin
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750419573833148748, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 7127953969925258412, guid: 49ebd76705e51084797291f6ed07f524, type: 2}
+    - target: {fileID: 4750419573833148748, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4750419573833148750, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -95981,7 +96077,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4750419573833148750, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 32.34
+      value: 32.06
       objectReference: {fileID: 0}
     - target: {fileID: 4750419573833148750, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -96007,6 +96103,30 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4750419574852684549, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontSize
+      value: 13.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750419574852684549, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 49ebd76705e51084797291f6ed07f524, type: 2}
+    - target: {fileID: 4750419574852684549, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750419574852684549, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontSizeMin
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750419574852684549, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 7127953969925258412, guid: 49ebd76705e51084797291f6ed07f524, type: 2}
+    - target: {fileID: 4750419574852684549, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4750419574852684551, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -96017,7 +96137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4750419574852684551, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 34.8
+      value: 33.93
       objectReference: {fileID: 0}
     - target: {fileID: 4750419574852684551, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -96035,6 +96155,30 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4750419575382347204, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontSize
+      value: 13.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750419575382347204, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 49ebd76705e51084797291f6ed07f524, type: 2}
+    - target: {fileID: 4750419575382347204, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750419575382347204, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontSizeMin
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750419575382347204, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 7127953969925258412, guid: 49ebd76705e51084797291f6ed07f524, type: 2}
+    - target: {fileID: 4750419575382347204, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4750419575382347206, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -96045,11 +96189,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4750419575382347206, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 61.4
+      value: 56.11
       objectReference: {fileID: 0}
     - target: {fileID: 4750419575382347206, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 44.7
+      value: 42.055
       objectReference: {fileID: 0}
     - target: {fileID: 4750419575382347206, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -96063,6 +96207,30 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4750419575962273165, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontSize
+      value: 13.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750419575962273165, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 49ebd76705e51084797291f6ed07f524, type: 2}
+    - target: {fileID: 4750419575962273165, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750419575962273165, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_fontSizeMin
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750419575962273165, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 7127953969925258412, guid: 49ebd76705e51084797291f6ed07f524, type: 2}
+    - target: {fileID: 4750419575962273165, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4750419575962273167, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -96073,7 +96241,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4750419575962273167, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 35.73
+      value: 34.09
       objectReference: {fileID: 0}
     - target: {fileID: 4750419575962273167, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -97557,7 +97725,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -97941,7 +98109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -98136,7 +98304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -99385,7 +99553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -99972,7 +100140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -100368,7 +100536,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -101173,7 +101341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -101467,7 +101635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -102705,7 +102873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -106130,7 +106298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -107619,7 +107787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -109074,7 +109242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -113201,7 +113369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -116565,7 +116733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -118857,7 +119025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -119648,7 +119816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -120473,7 +120641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -120989,7 +121157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -121572,7 +121740,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -123597,7 +123765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -124261,7 +124429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -124679,7 +124847,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -126826,7 +126994,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -127120,7 +127288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -127674,7 +127842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -129626,7 +129794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -129920,7 +130088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -130944,7 +131112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -132781,7 +132949,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -133384,7 +133552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -135600,7 +135768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -136903,7 +137071,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -137382,7 +137550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -139630,7 +139798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -140632,7 +140800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -142452,7 +142620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3
@@ -143571,7 +143739,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90816415520a1c046afc4c0398be2492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ServerGrabbable
-  snapRange: 0.8
+  snapRange: 0.5
   wireframeOffset: {x: 0, y: 0, z: 0}
   wireframeColor: {r: 1, g: 1, b: 1, a: 1}
   alignDuration: 0.3

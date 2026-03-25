@@ -131,6 +131,7 @@ public class ServerGrabbable : MonoBehaviour
         foreach (var sourceMf in meshFilters)
         {
             if (sourceMf.sharedMesh == null) continue;
+            if (!sourceMf.sharedMesh.isReadable) continue; // skip non-readable meshes
 
             Vector3 localPos = transform.InverseTransformPoint(sourceMf.transform.position);
             Quaternion localRot = Quaternion.Inverse(transform.rotation) * sourceMf.transform.rotation;
@@ -309,10 +310,10 @@ public class ServerGrabbable : MonoBehaviour
 
         if (rb != null)
         {
-            rb.isKinematic = true;
-            rb.useGravity = false;
             rb.linearVelocity = Vector3.zero;
             rb.angularVelocity = Vector3.zero;
+            rb.isKinematic = true;
+            rb.useGravity = false;
         }
 
         if (grab != null) grab.enabled = false;
@@ -430,7 +431,9 @@ public class ServerGrabbable : MonoBehaviour
         {
             if (allSlots[i].occupant != null) continue;
 
-            float dist = Vector3.Distance(transform.position, allSlots[i].slotTransform.position);
+            // Measure distance from server to the slide start position, not the slot itself
+            Vector3 slideStartPos = allSlots[i].slotTransform.TransformPoint(slideStartOffset);
+            float dist = Vector3.Distance(transform.position, slideStartPos);
             if (dist < nearestDist)
             {
                 nearestDist = dist;

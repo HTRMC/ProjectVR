@@ -176,11 +176,11 @@ public class ServerPuzzleSystem : MonoBehaviour
             string hex = ColorUtility.ToHtmlStringRGB(route.displayColor);
             string colorTag = $"<color=#{hex}>";
 
-            string statusA = route.aConnected ? "<color=green> ✓</color>" : "<color=red> ✗</color>";
-            string statusB = route.bConnected ? "<color=green> ✓</color>" : "<color=red> ✗</color>";
+            string statusA = route.aConnected ? "<color=green> OK</color>" : "<color=red> X</color>";
+            string statusB = route.bConnected ? "<color=green> OK</color>" : "<color=red> X</color>";
 
-            sb.AppendLine($"{colorTag}■ {route.cableColor}</color>");
-            sb.AppendLine($"  {route.LabelA}{statusA}  →  {route.LabelB}{statusB}");
+            sb.AppendLine($"{colorTag}\u25cf {route.cableColor}</color>");
+            sb.AppendLine($"  {route.LabelA}{statusA}  \u2192  {route.LabelB}{statusB}");
             sb.AppendLine();
         }
 
