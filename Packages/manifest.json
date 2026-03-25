@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.ivanmurzak.unity.mcp": "0.58.0",
+    "com.ivanmurzak.unity.mcp": "0.60.0",
     "com.unity.collab-proxy": "2.11.3",
     "com.unity.feature.development": "1.0.2",
     "com.unity.ide.rider": "3.0.39",
