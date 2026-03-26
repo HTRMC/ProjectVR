@@ -297,7 +297,14 @@ public class ServerGrabbable : MonoBehaviour
         if (slotIdx >= 0)
             BeginSnap(slotIdx);
         else
-            EnablePhysics();
+            StartCoroutine(EnablePhysicsDeferred());
+    }
+
+    System.Collections.IEnumerator EnablePhysicsDeferred()
+    {
+        // Wait one frame so XRI finishes restoring the rigidbody's saved kinematic state
+        yield return null;
+        EnablePhysics();
     }
 
     // ── Two-phase snap animation ──────────────────────────────────
