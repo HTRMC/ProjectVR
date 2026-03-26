@@ -153,6 +153,56 @@ public class PhysicsCable : MonoBehaviour
         // Cable pin interaction (ray-based)
         var pinInteraction = gameObject.AddComponent<CablePinInteraction>();
         pinInteraction.Init(this);
+
+        // Auto-connect Plug_A to nearest wall socket if one is close
+        SnapPlugToNearestSocket(plugARb);
+    }
+
+    void SnapPlugToNearestSocket(Rigidbody plugRb)
+    {
+        float bestDist = 0.5f; // max snap range
+        ServerSocket bestSocket = null;
+
+        foreach (var socket in Object.FindObjectsByType<ServerSocket>(FindObjectsSortMode.None))
+        {
+            if (socket.IsConnected) continue;
+            float dist = Vector3.Distance(plugRb.position, socket.transform.position);
+            if (dist < bestDist)
+            {
+                bestDist = dist;
+                bestSocket = socket;
+            }
+        }
+
+        if (bestSocket != null)
+        {
+            // Move plug to socket position and make kinematic
+            plugRb.position = bestSocket.transform.position;
+            plugRb.isKinematic = true;
+
+            // Trigger the XR socket connection
+            var socketInteractor = bestSocket.GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor>();
+            if (socketInteractor != null)
+            {
+                // Force the socket to grab the plug
+                var grab = plugRb.GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>();
+                if (grab != null)
+                {
+                    var interactionManager = socketInteractor.interactionManager;
+                    if (interactionManager != null)
+                    {
+                        // Move plug to socket, then let physics handle the snap
+                        plugRb.transform.position = bestSocket.transform.position;
+                        plugRb.isKinematic = true;
+
+                        // Notify the socket
+                        var cablePlug = plugRb.GetComponent<CablePlug>();
+                        if (cablePlug != null)
+                            bestSocket.OnPlugConnected(cablePlug);
+                    }
+                }
+            }
+        }
     }
 
     GameObject CreatePlugOutline(Transform parent)

@@ -116,7 +116,7 @@ public class CablePin : MonoBehaviour
     void OnReleased(SelectExitEventArgs args)
     {
         isHeld = false;
-        // Find nearest surface to snap to
+        // Find nearest cable tray surface to snap to (only objects tagged "Kabelgoot")
         Vector3 pos = transform.position;
         Vector3[] dirs = { Vector3.up, Vector3.down, Vector3.left, Vector3.right, Vector3.forward, Vector3.back };
         float closestDist = SNAP_RANGE;
@@ -130,6 +130,7 @@ public class CablePin : MonoBehaviour
                 Physics.DefaultRaycastLayers, QueryTriggerInteraction.Ignore))
             {
                 if (hit.collider == pinCollider) continue;
+                if (!hit.collider.CompareTag("Kabelgoot")) continue;
                 if (hit.distance < closestDist)
                 {
                     closestDist = hit.distance;
@@ -142,13 +143,13 @@ public class CablePin : MonoBehaviour
 
         if (foundSurface)
         {
-            // Re-pin at new surface position
+            // Re-pin at cable tray surface position
             transform.position = snapPos;
             cable.PinNode(nodeIndex, snapPos);
         }
         else
         {
-            // No surface nearby - remove pin entirely
+            // No cable tray nearby - remove pin entirely
             pinInteraction.RemovePin(this);
         }
     }
